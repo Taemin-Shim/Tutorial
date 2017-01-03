@@ -110,5 +110,10 @@ typedef union
 	float changeOut[2];				// 32 bit float    
 } changeUnion;
 
+typedef union
+{
+	unsigned long changeIn[2];	// 32 bit integer  
+	float changeOut[2];				// 32 bit float    
+} changeUnion2;
 
 #endif /* ASCL_DEFINE_H_ */
